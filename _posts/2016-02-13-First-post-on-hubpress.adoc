@@ -4,5 +4,3 @@
 ## Test first post on hubpress
 
 I just test my *blog*.
-
-[About Me](https://github.com/mikqi)
