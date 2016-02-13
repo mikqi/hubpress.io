@@ -1,0 +1,8 @@
+= First post on hubpress
+:hp-tags: HubPress, Blog, Open Source
+
+## Test first post on hubpress
+
+I just test my *blog*.
+
+[About Me](https://github.com/mikqi)
