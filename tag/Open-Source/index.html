@@ -1,77 +1,230 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
     <title></title>
-    <meta name="description" content="" />
 
-    <meta name="HandheldFriendly" content="True" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <link rel="shortcut icon" href="//mikqi.github.io/blog/themes/Casper/favicon.ico">
+    <meta name="description" content="">
 
-    <link rel="stylesheet" type="text/css" href="//mikqi.github.io/blog/themes/Casper/assets/css/screen.css?v=1.0.0" />
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+
+    <!-- <meta name="twitter:site" content="">
+
+<meta name="twitter:creator" content="">
+
+<meta name="google-site-verification" content="">
+
+<meta property="fb:admins" content="">
+ -->
+
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="/apple-touch-icon-precomposed.png" rel="apple-touch-icon">
+
+    <link href="//fonts.googleapis.com/" rel="dns-prefetch">
+    <link href="//fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic|Open+Sans:700,400&subset=latin,latin-ext" rel="stylesheet">
+
+    <link rel="stylesheet" href="//mikqi.github.io/blog/themes/ghostium/assets/css/main.min.css?v=1.0.0"/>
+    <link rel="stylesheet" href="//mikqi.github.io/blog/themes/ghostium/assets/css/custom.css?v=1.0.0"/>
+    <link rel="stylesheet" href="//mikqi.github.io/blog/themes/ghostium/assets/css/asciidoctor-foundation.css?v=1.0.0"/>
+
+
+
+
+    <script type="text/javascript">
+      var ga_ua = 'UA-XXXXX-X';
+      
+      var disqus_shortname = 'example';
+      
+      var enable_pjax = true;
+
+      // Pace Options
+      // ==============
+      window.paceOptions = {
+        catchupTime: 100,
+        minTime: 100,
+        elements: false,
+        restartOnRequestAfter: 500,
+        startOnPageLoad: false
+      }
+
+      // Ghostium Globals
+      // ==============
+      window.GHOSTIUM = {};
+      GHOSTIUM.haveGA = typeof ga_ua !== 'undefined' && ga_ua !== 'UA-XXXXX-X';
+      GHOSTIUM.haveDisqus = typeof disqus_shortname !== 'undefined' && disqus_shortname !== 'example';
+      GHOSTIUM.enablePjax = typeof enable_pjax !== 'undefined' ? enable_pjax : true;
+    </script>
+
+    <script src="//mikqi.github.io/blog/themes/ghostium/assets/js/head-scripts.min.js?v=1.0.0"></script>
 
     <link rel="canonical" href="https://mikqi.github.io/blog" />
     <meta name="generator" content="Ghost ?" />
     <link rel="alternate" type="application/rss+xml" title="" href="https://mikqi.github.io/blog/rss" />
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css">
-</head>
-<body class="tag-template tag-Open-Source home-template">
+  </head>
+  <body class="tag-template tag-Open-Source home-template">
 
-    
-<header class="main-header tag-head no-cover">
-    <nav class="main-nav overlay clearfix">
-        <a class="back-button icon-arrow-left" href="https://mikqi.github.io/blog">Home</a>
-        <!-- <a class="subscribe-button icon-feed" href="https://mikqi.github.io/blog/tag/Open-Source/rss/">Open-Source</a> -->
+    <button data-action="open-drawer" id="drawer-button" class="drawer-button"><i class="fa fa-bars"></i></button>
+    <nav tabindex="-1" class="drawer">
+      <div class="drawer-container">
+        <!--.drawer-search(role="search")-->
+        <ul role="navigation" class="drawer-list">
+          
+          <li class="drawer-list-item">
+            <a href="https://mikqi.github.io/blog" data-pjax>
+              <i class="fa fa-home"></i>Home
+            </a>
+          </li>
+          <!-- <li class="drawer-list-item">
+            <a href="https://mikqi.github.io/blog" title="" data-pjax>
+              <i class="fa fa-list-alt"></i>All posts
+            </a>
+          </li> -->
+          <!--
+          <li class="drawer-list-item">
+            <a href="https://mikqi.github.io/blog/rss/">
+              <i class="fa fa-rss"></i>Subscribe to Feed
+            </a>
+          </li>
+          -->
+          <li class="drawer-list-divider"></li>
+          <li class="drawer-list-item drawer-list-title">
+            Follow me
+          </li>
+          
+          
+          <li class="drawer-list-item">
+            <a href="https://www.twitter.com/__mikqi" title="Twitter" target="_blank">
+              <i class="fa fa-twitter"></i>Twitter
+            </a>
+          </li>
+          <li class="drawer-list-item">
+            <a href="https://github.com/mikqi" title="Github" target="_blank">
+              <i class="fa fa-github"></i>Github
+            </a>
+          </li>
+          <li class="drawer-list-item">
+            <a href="https://www.facebook.com/c4tax" title="Facebook" target="_blank">
+              <i class="fa fa-facebook"></i>Facebook
+            </a>
+          </li>
+          <li class="drawer-list-item">
+            <a href="https://plus.google.com/+MuhammadRivki" title="Google+" target="_blank">
+              <i class="fa fa-google-plus"></i>Google+
+            </a>
+          </li>
+          <li class="drawer-list-item">
+            <a href="http://instagram.com/mikqii" title="Instagram" target="_blank">
+              <i class="fa fa-instagram"></i>Instagram
+            </a>
+          </li>
+          <li class="drawer-list-item">
+            <a href="https://id.pinterest.com/mikqi/" title="Pinterest" target="_blank">
+              <i class="fa fa-pinterest"></i>Pinterest
+            </a>
+          </li>
+          <li class="drawer-list-item">
+            <a href="https://www.linkedin.com/pub/muhammad-rivki/86/955/1a2" title="LinkedIn" target="_blank">
+              <i class="fa fa-linkedin"></i>LinkedIn
+            </a>
+          </li>
+          <li class="drawer-list-item">
+            <a href="mailto:muhammad.rivki@Outlook.com" title="Email" target="_blank">
+              <i class="fa fa-envelope-o"></i>Email
+            </a>
+          </li>
+        </ul>
+      </div>
     </nav>
-    <div class="vertical">
-        <div class="main-header-content inner">
-            <h1 class="page-title">Open-Source</h1>
-            <h2 class="page-description">
-                    A 1-post collection
+
+    <div class="drawer-overlay"></div>
+    <main id="container" role="main" class="container">
+      <div class="surface">
+        <div class="surface-container">
+          <div data-pjax-container class="content">
+            
+<aside role="banner" class="cover">
+  <div  class="cover-image"></div>
+  <div class="cover-container">
+    <h1 class="cover-title"><a href="https://mikqi.github.io/blog" title=""></a></h1>
+    <p class="cover-description"></p>
+  </div>
+</aside>
+
+<section class="wrapper" tabindex="0">
+  <div class="wrapper-container">
+    <header>
+      <p><h2>Posts tagged with <i>Open-Source</i></h2></p>
+      <hr>
+    </header>
+
+    <section class="post-list">
+        <article itemscope itemtype="http://schema.org/BlogPosting"
+          role="article" class="post-item post tag-Hub-Press tag-Blog tag-Open-Source tag-">
+          <header class="post-item-header">
+            <h2 itemprop="name" class="post-item-title">
+              <a href="https://mikqi.github.io/blog/2016/02/13/First-post-on-hubpress.html" itemprop="url" data-pjax title="First post on hubpress">
+                First post on hubpress
+              </a>
             </h2>
-        </div>
-    </div>
-</header>
+          </header>
+          <section itemprop="description" class="post-item-excerpt">
+            <p>I just test my blog. miki Table 1. An example table Col 1 Col 2 Col 3 6 Three items d 1 Item 1 a 2 Item 2 b 3 Item 3 c app.rb&hellip;</p>
+          </section>
+          <footer class="post-item-footer">
+            <ul class="post-item-meta-list">
+              <li class="post-item-meta-item">
+                <time datetime="2016-02-13" itemprop="datePublished">
+                  2016-02-13 00:00:00<ago class="ago">
+                </time>
+              </li>
+                <li class="post-item-meta-item">
+                  <span class="tags"><i class="fa fa-tags"></i>
+                      <span>
+                      <a href="https://mikqi.github.io/blog/tag/Hub-Press">HubPress</a>, <a href="https://mikqi.github.io/blog/tag/Blog"> Blog</a>, <a href="https://mikqi.github.io/blog/tag/Open-Source"> Open Source</a>, <a href="https://mikqi.github.io/blog/tag/"></a></span>
+                  </span>
+                </li>
+              <li class="post-item-meta-item">
+                <a href="https://mikqi.github.io/blog/2016/02/13/First-post-on-hubpress.html#disqus_thread" data-pjax data-disqus-identifier="">Comments</a>
+              </li>
+            </ul>
+          </footer>
+        </article>
+    </section>
 
-<main class="content" role="main">
-
-    <div class="extra-pagination inner">
-        <nav class="pagination" role="navigation">
-        <span class="page-number">Page 1 of 1</span>
-    </nav>
-    </div>
-    
-    <article class="post tag-Hub-Press tag-Blog tag-Open-Source tag-">
-        <header class="post-header">
-            <h2 class="post-title"><a href="https://mikqi.github.io/blog/2016/02/13/First-post-on-hubpress.html">First post on hubpress</a></h2>
-        </header>
-        <section class="post-excerpt">
-            <p>I just test my blog. miki Table 1. An example table Col 1 Col 2 Col 3 6 Three items d 1 Item 1 a 2 <a class="read-more" href="https://mikqi.github.io/blog/2016/02/13/First-post-on-hubpress.html">&raquo;</a></p>
-        </section>
-        <footer class="post-meta">
-            
-            
-             on <a href="https://mikqi.github.io/blog/tag/Hub-Press">HubPress</a>, <a href="https://mikqi.github.io/blog/tag/Blog"> Blog</a>, <a href="https://mikqi.github.io/blog/tag/Open-Source"> Open Source</a>, <a href="https://mikqi.github.io/blog/tag/"></a>
-            <time class="post-date" datetime="2016-02-13">13 February 2016</time>
-        </footer>
-    </article>
-    
-    <nav class="pagination" role="navigation">
-        <span class="page-number">Page 1 of 1</span>
-    </nav>
-
-</main>
+      <nav role="pagination" class="post-list-pagination">
+  <span class="post-list-pagination-item post-list-pagination-item-current">Page 1 of 1</span>
+</nav>
 
 
-    <footer class="site-footer clearfix">
-        <section class="copyright"><a href="https://mikqi.github.io/blog"></a> &copy; 2016</section>
-        <section class="poweredby">Proudly published with <a href="http://hubpress.io">HubPress</a></section>
+    <footer role="contentinfo" class="footer">
+      <p><small>Copyright &copy; <span itemprop="copyrightHolder"></span>. 2016. All Rights Reserved.</small></p>
+      <p><small><a href="http://ghostium.oswaldoacauan.com/" target="_blank">Ghostium Theme</a> by <a href="http://twitter.com/oswaldoacauan" target="_blank">@oswaldoacauan</a></small></p>
+      <p><small>Adapted by <a href="https://twitter.com/mgreau">Maxime Gréau</a></small></p>
+      <p><small>Published with <a href="http://hubpress.io">HubPress</a></small></p>
     </footer>
+  </div>
+</section>
+
+          </div>
+        </div>
+      </div>
+    </main>
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js?v="></script> 
       <script type="text/javascript">
@@ -86,8 +239,8 @@
         hljs.initHighlightingOnLoad();      
       </script>
 
-    <script type="text/javascript" src="//mikqi.github.io/blog/themes/Casper/assets/js/jquery.fitvids.js?v=1.0.0"></script>
-    <script type="text/javascript" src="//mikqi.github.io/blog/themes/Casper/assets/js/index.js?v=1.0.0"></script>
+    <script src="//mikqi.github.io/blog/themes/ghostium/assets/js/foot-scripts.min.js?v=1.0.0"></script>
 
-</body>
+
+  </body>
 </html>
