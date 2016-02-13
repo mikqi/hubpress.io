@@ -3,4 +3,16 @@
 
 
 I just test my *blog*.
-[Test url like markdown](https://github.com/mikqi)
+
+http://mikqi.github.io[miki]
+
+
+.An example table
+[options="header,footer"]
+|=======================
+|Col 1|Col 2      |Col 3
+|1    |Item 1     |a
+|2    |Item 2     |b
+|3    |Item 3     |c
+|6    |Three items|d
+|=======================
