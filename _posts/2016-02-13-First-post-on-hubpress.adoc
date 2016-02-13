@@ -16,3 +16,20 @@ http://mikqi.github.io[miki]
 |3    |Item 3     |c
 |6    |Three items|d
 |=======================
+
+
+'''
+
+[[app-listing]] 
+[source, javascript]  
+.app.rb 
+---- 
+function copyit(theField) {
+  var selectedText = document.selection;
+  if (selectedText.type == 'Text') {
+    var newRange = selectedText.createRange();
+    theField.focus();
+    theField.value = newRange.text;
+  }
+}
+----
