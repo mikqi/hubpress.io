@@ -1,22 +1,5 @@
 = Second post
 
-
-'''
-
-[[app-listing]] 
-[source, javascript]  
-.app.rb 
----- 
-function copyit(theField) {
-  var selectedText = document.selection;
-  if (selectedText.type == 'Text') {
-    var newRange = selectedText.createRange();
-    theField.focus();
-    theField.value = newRange.text;
-  }
-}
-----
-
 Rapidiously expedite professional technology without alternative technologies. Conveniently streamline highly efficient channels for front-end supply chains. Credibly monetize 2.0 resources vis-a-vis exceptional "outside the box" thinking. Dramatically morph value-added leadership vis-a-vis empowered services. Seamlessly fashion customer directed methods of empowerment whereas extensive benefits.
 
 Completely strategize sustainable experiences without standards compliant ROI. Assertively facilitate extensive relationships rather than high-payoff content. Professionally deploy timely materials before premier resources. Globally productize best-of-breed networks vis-a-vis viral mindshare. Synergistically pursue 2.0 technology without interdependent growth strategies.
