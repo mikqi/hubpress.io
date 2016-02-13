@@ -1,10 +1,1 @@
-{
-  "meta": {
-    "username": "mikqi",
-    "repositoryName": "blog",
-    "branch": "gh-pages"
-  },
-  "theme": {
-    "name": "Casper"
-  }
-}
+{"meta":{"username":"mikqi","repositoryName":"blog","branch":"gh-pages"},"site":{"disqus":"mikqi","url":"https://mikqi.github.io/blog"},"socialnetwork":{"email":"muhammad.rivki@Outlook.com"},"theme":{"name":"Casper","url":"//mikqi.github.io/blog/themes/Casper"}}
